@@ -755,7 +755,9 @@
     "registration_successful": "Inscription réussie. Demander l'approbation d'un administrateur.",
     "Setup": "Configuration",
     "enabled_ldap_has_configuration_problem": "LDAP actif, vérifier la configuration.",
-    "set_env_var_for_logs": "(Remplir les variables d'environnement <code>DEBUG=crowi:service:PassportService</code> pour obtenir les journaux d'erreur)"
+    "set_env_var_for_logs": "(Remplir les variables d'environnement <code>DEBUG=crowi:service:PassportService</code> pour obtenir les journaux d'erreur)",
+    "wait_approve": "Veuillez attendre l'approbation de l'administrateur.",
+    "account_suspended": "Ce compte est suspendu."
   },
   "invited": {
     "title": "Invité",

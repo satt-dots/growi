@@ -30,7 +30,7 @@ const LoginPage: NextPage<CommonProps> = () => {
         <div className="alert alert-warning">
           <h2>{ t('login.sign_in_error') }</h2>
         </div>
-        <p>Wait for approved by administrators.</p>
+        <p>{ t('login.wait_approve') }</p>
       </>
     );
   };
@@ -41,7 +41,7 @@ const LoginPage: NextPage<CommonProps> = () => {
         <div className="alert alert-warning">
           <h2>{ t('login.sign_in_error') }</h2>
         </div>
-        <p>This account is suspended.</p>
+        <p>{ t('login.account_suspended') }</p>
       </>
     );
   };
